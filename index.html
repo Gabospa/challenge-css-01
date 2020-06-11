@@ -81,14 +81,14 @@
     .card__footer {
         height: 100px;
         display: flex;
-        s
+        justify-content: space-between;
+        
     }
 
     .card__footer--nav {
         list-style: none;
         display: flex;
         margin-left: 15px;
-        
     }
 
     .card__footer--nav li {
@@ -98,13 +98,22 @@
     .card__footer--nav li a {
         text-decoration: none;
         font-family: sans-serif;
+        font-weight: 520;
         color: cadetblue;
         font-size: 0.8em;
         margin: 5px;
     }
 
     .card__footer--icons {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
 
+    .card__footer--icons img {
+        height: 20px;
+        width: 20px;
+        margin: 0 10px;
     }
 
 </style>
@@ -129,8 +138,8 @@
                 <li><a href="#">ACTION 2</a></li>
             </ul>
             <div class="card__footer--icons">
-                <img src="icons8-broken-heart-30.png" alt="corazon">
-                <img src="icons8-share-24.png" alt="compartir">
+                <img src="icons8-broken-heart-24.png" alt="corazon">
+                <img src="icons8-share-2.png" alt="compartir">
             </div>
         </footer>
     </div>
